@@ -4,7 +4,7 @@ steps:
   - gcloud
   - functions
   - deploy
-  - function-tesla-save-location
+  - function-tesla-info
   - --region=us-east4
   - --service-account=service-account-wyze-function@ensure-dev-zone.iam.gserviceaccount.com
   - --entry-point=tesla_state
